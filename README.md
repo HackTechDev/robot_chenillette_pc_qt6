@@ -1,6 +1,6 @@
 # BatMobile — Télécommande PC (C++ / Qt6)
 
-Application de bureau (C++ / Qt6) pour piloter le robot Zumo Shield **BatMobile** (`../robot_chenillette`) en Bluetooth classique (SPP/RFCOMM). Portage de la version Python (`../robot_chenillette_pc_python`) : même interface, même protocole que l'appli Android (`../robot_chenillette_telecommande`).
+Application de bureau (C++ / Qt6) pour piloter le robot Zumo Shield **BatMobile** (`../robot_chenillette`) en Bluetooth classique (SPP/RFCOMM). Portage de la version Python ([robot_chenillette_pc](https://github.com/HackTechDev/robot_chenillette_pc)) : même interface, même protocole que l'appli Android (`../robot_chenillette_telecommande`).
 
 ## Prérequis
 
