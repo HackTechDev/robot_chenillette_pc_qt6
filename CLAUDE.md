@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 C++17 / Qt6 Widgets desktop app (Linux) to control the BatMobile Zumo robot (`../robot_chenillette`) over classic Bluetooth (SPP/RFCOMM). Port of the PyQt6 app `../robot_chenillette_pc_python` (itself a port of the Android app `../robot_chenillette_telecommande`): same UI layout, same command protocol. Sends single ASCII characters to the robot's SoftwareSerial Bluetooth module. UI strings and comments are in French.
 
+Validated by the user with the real robot (2026-10-17): RFCOMM connection, buttons and keyboard driving. The discovery + PIN pairing path of `Pairing` has not been exercised yet (the robot was already paired); the Python equivalent was confirmed with `--repair`.
+
 ## Build / Run
 
 ```bash
