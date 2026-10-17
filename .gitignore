@@ -27,3 +27,6 @@ ui_*.h
 *.swp
 *~
 .DS_Store
+
+# Notes locales
+claude_task.md
